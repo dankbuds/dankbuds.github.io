@@ -209,7 +209,7 @@ div.holder3 div {
   font-size: 90%;
   font-family:ubuntu; 
   align:middle;
-  padding-left:30%;
+  padding-left:32%;
   text-align:center;
   text-align:middle;
   color:#fff;
@@ -285,6 +285,16 @@ div.holder3 div {
   text-align:middle;
   color:#000;
   margin-left: 29%
+}
+
+.absolute-text12 {
+  position: absolute;
+  top:70%;
+  font-family:ubuntu; 
+  text-align:center;
+  text-align:middle;
+  color:#000;
+  padding-left: 5%;
 }
 
 .footer {
