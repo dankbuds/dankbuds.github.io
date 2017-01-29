@@ -7,6 +7,7 @@ body {
   height: 100%;
   padding:0;
   margin:0 auto;
+  background-color: transparent;
 }
 
 .nav ul {
@@ -135,6 +136,11 @@ div.holder2 div {
   float: left;
   width: 25%;
   height: 100%;
+  background-image:url(https://docs.google.com/uc?id=0B8S6FJlhZBZKZmZsUzluaUhzaTQ);
+  background-color: transparent;
+  border-bottom-style: solid;
+  border-bottom-color:#d3d3d3;
+  border-bottom-width: 2px;
 }
 
 div.holder3 div {
@@ -362,13 +368,14 @@ a:hover {
 .StoreHeader2 {
   font-family: ubuntu;
   text-align:center;
-  color:#000000; 
+  color:#000000;
+  background-color: transparent; 
 }
 
 .StoreHeader3 {
   font-family: ubuntu;
   text-align:center;
-  background-color: none;
+  background-color: transparent;
   color:#000000;
 }
 
@@ -382,7 +389,7 @@ a:hover {
 
 .AboutBackground{
   padding-top: 3%;
-  background-image: url(file:///home/abthompson/Business/Images/snowyshed.jpg);
+  background-image: url(https://docs.google.com/uc?id=0B8S6FJlhZBZKaHZwRU9DN0hNcDg);
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center center; 
@@ -415,7 +422,7 @@ h3 {
 .abouttext {
   text-align: center;
   font-family: ubuntu;
-  color:#ffffff;
+  color:#000000;
 }
 
 .abouttext:hover {
