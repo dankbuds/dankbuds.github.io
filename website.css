@@ -150,6 +150,14 @@ div.holder3 div {
   height: 100%;
 }
 
+div.holder4 div {
+  float: left;
+  width: 25%;
+  height: 100%;
+  background-image:url(https://docs.google.com/uc?id=0B8S6FJlhZBZKZmZsUzluaUhzaTQ);
+  background-color: transparent;
+}
+
 .relative{
   position:relative; 
   width:100%;
