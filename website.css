@@ -2,6 +2,7 @@ html {
   height: 100%;
   padding:0;
   margin:0 auto;
+  background-color:#ffffff;
 }
 body {
   height: 100%;
@@ -25,10 +26,11 @@ body {
   border-left:none;
   border-top:none;
   border-bottom-style: solid;
+  font-family: "Permanent Marker", cursive;
 
 }
 .nav li {
-  font-family: 'Covered By Your Grace', cursive;
+  font-family:"Permanent Marker", cursive;
   height: 10%;
   width:12%;
   border-bottom: 1px solid #888; 
@@ -113,7 +115,7 @@ body {
 }
 
 h1{
-  font-family: ubuntu;
+  font-family: "Permanent Marker", cusive;
 }
 
 div.holder div {
@@ -166,7 +168,7 @@ div.holder4 div {
   position:absolute; 
   top:-2%; 
   font-size:620%; 
-  font-family:ubuntu; 
+  font-family:"Permanent Marker", cursive; 
   background:rgba(0,0,0 ,0.5);
   width:100%;
   height:94.5%;
@@ -183,7 +185,7 @@ div.holder4 div {
   position:absolute; 
   top:35%; 
   font-size:200%; 
-  font-family:ubuntu; 
+  font-family:"Permanent Marker", cursive; 
   width:45%;
   height:94.5%;
   padding-left:28%;
@@ -223,7 +225,7 @@ div.holder4 div {
   font-size: 90%;
   font-family:ubuntu; 
   align:middle;
-  padding-left:32%;
+  padding-left:34%;
   text-align:center;
   text-align:middle;
   color:#fff;
@@ -233,7 +235,7 @@ div.holder4 div {
   position: absolute;
   font-size: 175%;
   top:35%;
-  font-family:ubuntu; 
+  font-family:"Permanent Marker", cursive; 
   align:middle;
   padding-left:40%;
   text-align:center;
@@ -257,12 +259,12 @@ div.holder4 div {
   position: absolute;
   top:35%;
   font-size:175%;
-  font-family:ubuntu; 
+  font-family:"Permanent Marker", cursive; 
   align:middle;
-  padding-left:38%;
+  padding-left:30%;
   text-align:center;
   text-align:middle;
-  color:#000;
+  color:#606060;
 }
 
 .absolute-text9 {
@@ -271,7 +273,7 @@ div.holder4 div {
   font-size:90%;
   font-family:ubuntu; 
   align:middle;
-  padding-left:43%;
+  padding-left:40%;
   text-align:center;
   text-align:middle;
   color:#000;
@@ -361,54 +363,58 @@ a:hover {
 }
 
 .StoreHeader {
-  font-family: ubuntu;
   text-align:center;
   color:#000000;
   background-color: #ffffff;
 }
 
 .StoreHeader1 {
-  font-family: ubuntu;
   text-align:center;
   color:#ffffff;
+  font-size: 400%;
 }
 
-.StoreHeader2 {
-  font-family: ubuntu;
+.StoreHeader4 {
   text-align:center;
-  color:#000000;
+  color:#ffffff;
+  font-size: 200%;
+}
+.StoreHeader2 {
+  text-align:center;
+  color:#303030;
   background-color: transparent; 
+  font-size:400%;
 }
 
 .StoreHeader3 {
-  font-family: ubuntu;
   text-align:center;
   background-color: transparent;
-  color:#000000;
+  color:#303030;
+  font-size: 200%: 
 }
 
 .SnowcrestAbout {
-  width:60%;
-  padding-left:20%;
-  padding-right:20%;
+  font-family: ubuntu;
+  width:40%;
+  padding-left:30%;
+  padding-right:30%;
   text-align: center;
   color:#ffffff;
 }
 
 .AboutBackground{
-  padding-top: 3%;
-  background-image: url(https://docs.google.com/uc?id=0B8S6FJlhZBZKaHZwRU9DN0hNcDg);
-  background-size:cover;
+  padding-top: 2%;
+  background-image: url(https://docs.google.com/uc?id=1bQzD8jGG-2pOMr5AHfBgOlD8vFn2lo71)
   background-repeat:no-repeat;
   background-position:center center; 
-  height:60%;
+  height:50%;
   border-bottom-style: solid;
   border-bottom-width: 2px;
-  border-bottom-color: #d3d3d3;
+  border-bottom-color: #ffffff;
 }
 
 h3 {
-  font-family:ubuntu;
+  font-family: "Permanent Marker", cusive;
 }
 
 .AboutBody {
@@ -464,4 +470,57 @@ u {
     background-color: #000;
     color:#fff;
     transition: .3s
+}
+
+#h2 {
+  font-family: "Permanent Marker", cursive;
+}
+
+div.holder5 div {
+  float: left;
+  width: 35%;
+  height:100%;
+  padding-left:8%;
+}
+
+div.holder6 div {
+  float: left;
+  width: 35%;
+  height:100%;
+  padding-left:8%;
+  align-content: center;
+}
+
+.spacer1 {
+  height: 6%;
+  background-color: #ffffff;
+}
+
+.spacer{
+  height:45%;
+  background-color: #ffffff;
+}
+
+.info {
+  font-family: ubuntu;
+}
+
+h2 {
+  font-family: "Permanent Marker", cursive;
+}
+
+tr {
+  font-family: "Permanent Marker", cursive;
+}
+
+ul {
+  font-family: "Permanent Marker", cursive;
+}
+
+.text{
+  font-family: "Permanent Marker", cursive;
+}
+
+h1{
+  font-family: "Permanent Marker", cursive;
 }
