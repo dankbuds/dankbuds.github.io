@@ -1,0 +1,231 @@
+html {
+  height: 100%;
+  padding:0;
+  padding-bottom: 0%;
+  margin:0 auto;
+  background-color:#ffffff;
+  min-height: 30px;
+}
+
+body {
+  height: 100%;
+  padding:0;
+  margin:0 auto;
+  background-color: transparent;
+}
+
+  .site-nav a {
+  display: block;
+}
+
+.toggle, #site-header:target .toggle-menu-close {
+  display: inline-block;
+}
+
+.toggle-menu-close, #site-header:target .toggle-menu, .shrink-me {
+  display: none;
+}
+
+
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+
+html {
+  font-family: "Permanent Marker", cursive;
+  color: #404040;
+}
+
+a {
+  padding-bottom: 45%;
+  padding-top:45%;
+  color: #404040;
+}
+
+p {
+  margin: 0 0 24%;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.site {
+  min-height: 100%;
+}
+
+.site-header {
+  border-bottom: 2px solid #404040;
+}
+
+.site-nav {
+  margin-left: 0;
+  max-height: 0;
+  padding-top: 0;
+  border-top: 2px solid transparent;
+  height: auto;
+  overflow: hidden;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+@media screen and (min-width: 100%) {
+  .site-nav {
+    border-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    display: block;
+    max-height: 1000px;
+  }
+}
+#site-header:target .site-nav {
+  border-color: #404040;
+  max-height: 100%;
+}
+@media screen and (min-width: 751px) {
+  #site-header:target .site-nav {
+    padding-top: 2%;
+  }
+}
+
+.site-toggles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+@media screen and (min-width: 100%) {
+  .site-toggles {
+    display: none;
+    padding-left: 60%;
+  }
+}
+
+.toggle {
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 12px;
+  line-height: 1;
+  font-size: 100%;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 70%;
+  padding-top: 7%;
+}
+
+.site-nav a {
+  padding: 12px;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 4px;
+  -webkit-transition: background-color ease 0.3s, color ease 0.3s;
+  transition: background-color ease 0.3s, color ease 0.3s;
+}
+.site-nav a:hover, .site-nav a:focus {
+  background-color: #ffffff;
+  color: #d3d3d3;
+}
+@media screen and (min-width: 751px) {
+  .site-nav a {
+    margin: 0 0 24px 0;
+    display: inline-block;
+  }
+}
+
+.relative{
+  position:relative; 
+  width:100%;
+}
+
+.absolute-text {
+  position:absolute; 
+  top:-5%; 
+  font-size:260%; 
+  font-family:"Permanent Marker", cursive; 
+  width:100%;
+  padding-top:1%;
+  text-align:center;
+  color:#fff;
+  height:94.5%;
+}
+
+.absolute-text2 {
+  position:absolute; 
+  top:35%; 
+  font-size:120%; 
+  font-family:"Permanent Marker", cursive; 
+  width:45%;
+  height:94.5%;
+  padding-left:28%;
+  text-align:center;
+  text-align:middle;
+  color:#fff;
+}
+
+.absolute-text3 {
+  position:absolute; 
+  top:70%; 
+  font-size: 110%;
+  font-family:ubuntu; 
+  align:middle;
+  padding-left:38%;
+  text-align:center;
+  text-align:middle;
+  color:#fff;
+}
+
+.absolute-text4 {
+  position: absolute;
+  top:60%;
+  font-size: 100%;
+  font-family:ubuntu; 
+  align:middle;
+  padding-left:20%;
+  text-align:center;
+  text-align:middle;
+  color:#fff;
+}
+
+.absolute-text5 {
+  position: absolute;
+  top:60%;
+  font-size: 100%;
+  font-family:ubuntu; 
+  align:middle;
+  padding-left:30%;
+  text-align:center;
+  text-align:middle;
+  color:#fff;
+}
+
+.absolute-text6 {
+  position: absolute;
+  top:60%;
+  font-size: 100%;
+  font-family:ubuntu; 
+  align:middle;
+  padding-left:35%;
+  text-align:center;
+  text-align:middle;
+  color:#fff;
+}
+
+.footer {
+  background-color: #000000;
+  width:100%;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #ffffff;
+  text-decoration:none; 
+  color:#ffffff;
+}
+
+td {
+  font-family: ubuntu;
+  color:#ffffff;
+}
