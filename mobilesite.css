@@ -245,3 +245,7 @@ td {
     height: 0;
     padding-bottom: 56.25%;
 }
+
+.flex {
+  flex-direction: column
+    ]
