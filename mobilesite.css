@@ -249,3 +249,7 @@ td {
 .flex {
   flex-direction: column
     ]
+
+ul {
+  list-style-type:none;
+  }
