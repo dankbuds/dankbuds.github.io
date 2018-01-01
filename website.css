@@ -524,3 +524,8 @@ ul {
 h1{
   font-family: "Permanent Marker", cursive;
 }
+
+.partner {
+  width:50%;
+  padding-left: 25%;
+}
