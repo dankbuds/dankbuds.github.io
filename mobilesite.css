@@ -246,6 +246,48 @@ td {
     padding-bottom: 56.25%;
 }
 
-.flex {
-  flex-direction: column
-    ]
+.request {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 100%;
+}
+
+.active {
+  color:#404040;
+}
+
+.AboutBackground{
+  padding-top: 2%;
+  background-repeat:no-repeat;
+  background-position:center center; 
+  height:40%;
+  width:100%;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #ffffff;
+  padding: none;
+}
+
+.StoreHeader1 {
+  color:#ffffff;
+}
+
+.StoreHeader4 {
+  color:#ffffff;
+}
+
+.SnowcrestAbout {
+  width:65%;
+}
+
+.title {
+  width: 70%;
+}
+
+.partner{
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+}
