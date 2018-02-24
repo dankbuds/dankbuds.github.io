@@ -75,11 +75,11 @@ body {
 }
 
 #logo {
-  width:7em;
-  margin-left:17%;
+  width:3.5em;
+  margin-left:20%;
   position: fixed;
   z-index:200;
-  padding-top:.5%;
+  padding-top:.1%;
 }
 
 #latest_vid {
@@ -528,4 +528,9 @@ h1{
 .partner {
   width:50%;
   padding-left: 25%;
+}
+
+.that1link {
+  font-family: "Permanent Marker";
+  color:#000000;
 }
