@@ -273,7 +273,7 @@ div.holder4 div {
   font-size:90%;
   font-family:ubuntu; 
   align:middle;
-  padding-left:40%;
+  padding-left:38%;
   text-align:center;
   text-align:middle;
   color:#000;
@@ -395,7 +395,7 @@ a:hover {
 
 .SnowcrestAbout {
   font-family: ubuntu;
-  width:40%;
+  width:45%;
   padding-left:30%;
   padding-right:30%;
   text-align: center;
@@ -407,7 +407,7 @@ a:hover {
   background-image: url(https://docs.google.com/uc?id=1bQzD8jGG-2pOMr5AHfBgOlD8vFn2lo71)
   background-repeat:no-repeat;
   background-position:center center; 
-  height:50%;
+  height:30em;
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #ffffff;
@@ -497,8 +497,8 @@ div.holder6 div {
 }
 
 .spacer{
-  height:45%;
-  background-color: #ffffff;
+  height:7em;
+  width:100%;
 }
 
 .info {
@@ -533,4 +533,58 @@ h1{
 .that1link {
   font-family: "Permanent Marker";
   color:#000000;
+}
+
+div.holder5 div {
+  padding-left: 10%;
+  float: left;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.overview {
+  background-color: #ffffff;
+  font-family: ubuntu;
+  color:#808080;
+  border-width:5px;
+  border-style: solid;
+  border-radius: 8px;
+}
+
+.product {
+  background-color: #a9a9a9;
+  float:left;
+  width:29.3334%;
+  margin-left:13%;
+  color:#ffffff;
+  border:solid 1em #a9a9a9;
+  border-radius: 5px;
+}
+
+.button1 {
+  border-radius: 5px;
+    border: none;
+    color:#ffffff;
+    padding: 2% 4%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+    border:#fff solid 3px;
+    font-size: 17px;
+    background:transparent;
+    font-weight:bold;
+    font-family: ubuntu;
+}
+
+.button1:hover {
+    background-color: #fff;
+    color:#a9a9a9;
+    transition: .3s
+}
+
+.pic {
+  border: solid 1px #a9a9a9;
+  border-radius: 5px;
 }
